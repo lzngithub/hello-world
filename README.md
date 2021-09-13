@@ -97,3 +97,22 @@ new Vue({
   render: h => h(App),
 }).$mount('#app')
 ```
+
+## 引入组件库（element-ui）
+
+参考网址：
+<https://element.eleme.cn/#/zh-CN/component/installation>
+
+安装
+
+```js
+yarn add element-ui -S
+```
+
+在main.js中全局引入,然后在项目中直接使用就可以了
+
+```js
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+Vue.use(ElementUI);
+```

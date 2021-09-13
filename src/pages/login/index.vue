@@ -22,7 +22,7 @@
 					/>
 				</div>
 				<div class="btn">
-					<Button type="success" long @click="userLogin">登录</Button>
+					<el-button type="success" long @click="userLogin">登录</el-button>
 				</div>
 			</div>
 		</div>
